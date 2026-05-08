@@ -1,7 +1,7 @@
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
 import { writeFileSync } from 'fs';
 
-const propertyId = 'REPLACE_WITH_YOUR_GA4_PROPERTY_ID';
+const propertyId = '283156850';
 
 const client = new BetaAnalyticsDataClient();
 
