@@ -1,0 +1,13 @@
+{
+  "name": "moravian-insights-hub",
+  "version": "1.0.0",
+  "description": "Moravian University analytics dashboard",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-ga4.js && node scripts/fetch-search-console.js"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^4.0.0",
+    "googleapis": "^140.0.0"
+  }
+}
